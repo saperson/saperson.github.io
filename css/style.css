@@ -20,16 +20,19 @@ header, nav, main, footer {
 
 /* Header styles */
 header {
-	background-color: #565656;
+	/* background-color: #565656; */
 	width: auto;
 	color: BlanchedAlmond;
 	min-height: 20%;
 }
 
 header h1 {
-	padding: 40px;
+	padding: 30px;
 	font-family: 'Lexend Giga', sans-serif;
 	font-size: 25pt;
+	letter-spacing: 15pt;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 
@@ -40,11 +43,11 @@ nav {
 
 nav ul { 
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 }
 
 nav li { 
-	padding: 12px;
+	padding: 30px;
 	font-size: 10pt;
 	font-family: 'Fjalla One', sans-serif;
 	text-transform: uppercase;
@@ -55,7 +58,8 @@ nav a {
 }
 
 nav a:hover { 
-	color: white;
+	color: #DCBA5B;
+	transition: .3s;
 }
 
 
