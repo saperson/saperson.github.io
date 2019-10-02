@@ -1,6 +1,6 @@
 body {
 	/* background: #FAEBD7 url('../images/vintage-concrete.png'); */
-	background-color: #1D1D1D;
+	background-color: white;
 }
 
 a {
@@ -20,7 +20,7 @@ header, nav, main, footer {
 
 /* Header styles */
 header {
-	/* background-color: #565656; */
+	background-color: #1D1D1D;
 	width: auto;
 	color: BlanchedAlmond;
 	min-height: 20%;
@@ -38,7 +38,9 @@ header h1 {
 
 /* Nav styles */
 nav { 
-
+	background-color: #1D1D1D;
+	width: auto;
+	padding-bottom: none;
 }
 
 nav ul { 
@@ -62,6 +64,9 @@ nav a:hover {
 	transition: .3s;
 }
 
+hr {
+	padding: none;
+}
 
 /* Main styles */
 main { 
