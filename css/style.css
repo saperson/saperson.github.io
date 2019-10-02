@@ -57,11 +57,12 @@ nav li {
 
 nav a { 
 	color: BlanchedAlmond; 
+	transition: .3s all ease-in-out;
 }
 
 nav a:hover { 
 	color: #DCBA5B;
-	transition: .3s all ease-in-out;
+	letter-spacing: 1.5px;
 }
 
 /* Main styles */
