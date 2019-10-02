@@ -62,7 +62,6 @@ nav a {
 nav a:hover { 
 	color: #DCBA5B;
 	transition: .3s all ease-in-out;
-	text-decoration: underline;
 }
 
 /* Main styles */
