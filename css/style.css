@@ -91,13 +91,17 @@ section h2 {
 
 aside {
 	text-align: right;
-	background-color: gray;
+	background-color: #1D1D1D;
 }
 
 aside h2 {
 	font-family: 'Fjalla One', sans-serif;
 	text-transform: uppercase;
 	color: blanchedalmond;
+}
+
+aside a {
+	color: white;
 }
 
 .aside-container {
