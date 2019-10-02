@@ -61,11 +61,8 @@ nav a {
 
 nav a:hover { 
 	color: #DCBA5B;
-	transition: .3s;
-}
-
-hr {
-	padding: none;
+	transition: .3s all ease-in-out;
+	text-decoration: underline;
 }
 
 /* Main styles */
@@ -93,8 +90,8 @@ section h2 {
 }
 
 aside {
-	padding: 40px 0px;
 	text-align: right;
+	background-color: gray;
 }
 
 aside h2 {
@@ -103,15 +100,24 @@ aside h2 {
 	color: blanchedalmond;
 }
 
+.aside-container {
+	padding: 20px;
+}
+
 /* Footer styles */
-footer { 
-	background-color: #000;
+footer {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: auto;
+	background-color: gray;
 	border-radius: 10px;
 	color: white;
 	text-align: right;
+	margin: 20px;
  }
  
-footer p { 
+footer p {
 	padding: 20px; 
 	font-family: 'Lexend Giga', sans-serif;
 	font-size: 10px;
