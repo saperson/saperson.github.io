@@ -8,10 +8,6 @@ a {
 	color: darkgray;
 }
 
-a:hover { 
-	color: Tomato; 
-}
-
 header, nav, main, footer {
 	width: 80%;
 	margin: auto;
