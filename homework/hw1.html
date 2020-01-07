@@ -5,15 +5,35 @@
 	<title>Homework 1</title>
 
 	<style>
+		body {
+			font-family: verdana;
+		}
+		.container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+		.column {
+			padding: 10px;
+		}
 		.text {
 			display: none;
 		}
 		.show {
 			display: block;
 		}
+		#animate-div {
+			height: 100px;
+			background-color: lightblue;
+			position: relative;
+		}
 		#slide-p {
 			padding: 20px;
 			display: none;
+			background-color: lightblue;
+		}
+		#expand-div {
+			width: 250px;
+			height: 250px;
 			background-color: lightblue;
 		}
 	</style>
@@ -21,18 +41,25 @@
 </head>
 <body>
 
-<a href="#" class="btn">Click me</a>
-<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<div class="container">
+	<div class="column">
+		<!-- <a href="#" class="btn">Click me</a>
+		<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+		<p class="animate-p">Click to animate</p>
+		<div id="animate-div"></div>
+	</div>
 
-<br>
+	<div class="column">
+		<p class="slidebtn">Click to slide</p>
+		<div id="slide-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+	</div>
 
-<a href="#" class="slidebtn">Click to slide</a>
-<div id="slide-p">Lorem</div>
-
-<br>
-
-<p class="expand-p">Click to expand</p>
-<div id="expand-div" style="width: 250px; height: 250px; background-color: lightblue;"></div>
+	<div class="column">
+		<p class="expand-p">Click to expand</p>
+		<div id="expand-div" style="width: 250px; height: 250px; background-color: lightblue;"></div>
+	</div>
+</div>
 
 <script
 	src="http://code.jquery.com/jquery-3.4.1.min.js"
@@ -51,6 +78,12 @@
 	$(".expand-p").click(function(){
 		$("#expand-div").width(500).height(500);
   	});
+  	$(".animate-p").click(function(){
+		$("#animate-div").animate({
+			top: "200px",
+			height: "300px",
+		});
+	});
 </script>
 
 </body>
