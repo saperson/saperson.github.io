@@ -10,13 +10,22 @@
 		.show {
 			display: block;
 		}
+		#slide-p {
+			padding: 20px;
+			display: none;
+			background-color: #e5eecc;
+		}
 	</style>
 </head>
 <body>
 
 <a href="#" class="btn">Click me</a>
-
 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<br>
+
+<a href="#" class="slidebtn">Click to slide</a>
+<div id="slide-p">Lorem</div>
 
 <script
 	src="http://code.jquery.com/jquery-3.4.1.min.js"
@@ -27,6 +36,10 @@
 <script>
 	$('.btn').click(function(){
 		$('.text').toggleClass('show');
+	})
+
+	$(".slidebtn").click(function(){
+		$("#slide-p").slideDown('slow');
 	})
 </script>
 
