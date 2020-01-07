@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Homework 1</title>
+
 	<style>
 		.text {
 			display: none;
@@ -13,9 +14,10 @@
 		#slide-p {
 			padding: 20px;
 			display: none;
-			background-color: #e5eecc;
+			background-color: lightblue;
 		}
 	</style>
+
 </head>
 <body>
 
@@ -26,6 +28,11 @@
 
 <a href="#" class="slidebtn">Click to slide</a>
 <div id="slide-p">Lorem</div>
+
+<br>
+
+<p class="expand-p">Click to expand</p>
+<div id="expand-div" style="width: 250px; height: 250px; background-color: lightblue;"></div>
 
 <script
 	src="http://code.jquery.com/jquery-3.4.1.min.js"
@@ -41,6 +48,9 @@
 	$(".slidebtn").click(function(){
 		$("#slide-p").slideDown('slow');
 	})
+	$(".expand-p").click(function(){
+		$("#expand-div").width(500).height(500);
+  	});
 </script>
 
 </body>
