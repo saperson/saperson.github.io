@@ -3,8 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Homework 2</title>
-
+	<link rel="stylesheet" href="https://use.typekit.net/oef6vrv.css">
 	<style>
+		img {
+			width: 100%;
+			margin-bottom: 10px;
+		}
 		a {
 			color: lightblue;
 			text-decoration: none;
@@ -18,32 +22,81 @@
 		}
 
 		.container {
-			background-color: lightblue;
-			width: 600px;
+			width: 900px;
 			height: 600px;
-			margin: auto;
+			margin: 100px auto;
 			display: grid;
 			grid-template-columns: 1fr 1fr;
 		}
 
 		.column {
-			border: 1px solid black;
 			margin: 0px 10px;
+		}
+
+		.stickydiv {
+			position: sticky; 
+			top: 15px; 
+			width: 100%; 
+			height: 100vw;
+		}
+		.headline {
+			font-family: benton-modern-display-compre, serif;
+			font-size: 100px;
+			font-weight: 700;
+			text-align: center;
+			line-height: 80px;
+			width: 100%;
+		}
+		.subheadline {
+			font-family: benton-modern-display-compre, serif;
+			font-size: 50px;
+			font-weight: 400;
+			text-align: center;
+			padding: 15px;
+			margin: auto;
+		}
+		.author {
+			font-family: benton-modern-display-compre, serif;
+			font-size: 26px;
+			font-weight: 400;
+		}
+		.body-text {
+			font-family: poynter-oldstyle-text, serif;
+			font-size: 20px;
+			line-height: 25px;
 		}
 	</style>
 
 </head>
 <body>
 
-<h6><a href="https://saperson.github.io/">< Back to home</a></h6>
+<h6><a href="https://saperson.github.io/" style="font-family: benton-modern-display-compre; color: black;">< Back to home</a></h6>
 
-<div class="container">
+<!-- <div class="container">
 	<div class="column">
 		
 	</div>
 
 	<div class="column">
 		
+	</div>
+</div> -->
+
+<div class="stickydiv">
+	<div class="headline">TESLA CYBERTRUCK INSPIRES COMPETITORS</div>
+	<div class="subheadline">RIPOFFS TAKE TO STREETS</div>
+	<div class="container">
+		<div class="column">
+			<img src="images/cybertruck1.jpg">
+			<img src="images/cybertruck2.jpg">
+			<img src="images/cybertruck3.jpg">
+		</div>
+
+		<div class="column">
+			<div class="author">By Dave Jernalyst</div>
+			<br>
+			<div class="body-text">Several Tesla Cybertruck ripoffs have taken to the streets in the wake of the company's susprise announcement on November 21st. Aiming to capitalize on the response to the truck's unique form factor, other automakers such as Dodge (pictured left) have announced their own takes on the Cybertruck's eye-searing style.</div>
+		</div>
 	</div>
 </div>
 
