@@ -9,6 +9,13 @@
 			width: 100%;
 			margin-bottom: 10px;
 		}
+		.back-button {
+			font-family: benton-modern-display-compre; color: black;
+		}
+		.back-button:hover {
+			color: gray;
+			transition: .3s;
+		}
 		a {
 			color: lightblue;
 			text-decoration: none;
@@ -21,7 +28,7 @@
 			transition: .3s;
 		}
 
-		.container {
+		.body-container {
 			width: 900px;
 			height: 600px;
 			margin: 100px auto;
@@ -70,7 +77,7 @@
 </head>
 <body>
 
-<h6><a href="https://saperson.github.io/" style="font-family: benton-modern-display-compre; color: black;">< Back to home</a></h6>
+<h6><a class="back-button" href="https://saperson.github.io/">< Back to home</a></h6>
 
 <!-- <div class="container">
 	<div class="column">
@@ -83,9 +90,11 @@
 </div> -->
 
 <div class="stickydiv">
-	<div class="headline">TESLA CYBERTRUCK INSPIRES COMPETITORS</div>
-	<div class="subheadline">RIPOFFS TAKE TO STREETS</div>
-	<div class="container">
+	<div class="headline-container">
+		<div class="headline">TESLA CYBERTRUCK INSPIRES COMPETITORS</div>
+		<div class="subheadline">RIPOFFS TAKE TO STREETS</div>
+	</div>
+	<div class="body-container">
 		<div class="column">
 			<img src="images/cybertruck1.jpg">
 			<img src="images/cybertruck2.jpg">
@@ -95,7 +104,9 @@
 		<div class="column">
 			<div class="author">By Dave Jernalyst</div>
 			<br>
-			<div class="body-text">Several Tesla Cybertruck ripoffs have taken to the streets in the wake of the company's susprise announcement on November 21st. Aiming to capitalize on the response to the truck's unique form factor, other automakers such as Dodge (pictured left) have announced their own takes on the Cybertruck's eye-searing style.</div>
+			<div class="body-text">Several alternatives to the Tesla Cybertruck have taken to the streets in the wake of the company's susprise announcement on November 21st. Aiming to capitalize on the response to the truck's unique form factor, other automakers such as Dodge (pictured left) have announced their own takes on the Cybertruck's eye-searing style.
+			<br><br>
+			Several automakers have already launched alternatives to Tesla's Model S sedan and Model X SUV, and these various Cybertruck competitors are only the latest in a common trend since the Model S's debut in 2012.</div>
 		</div>
 	</div>
 </div>
@@ -107,7 +118,7 @@
 </script>
 
 <script>
-	// jQuery here
+	
 </script>
 
 </body>
