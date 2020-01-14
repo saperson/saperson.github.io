@@ -17,7 +17,7 @@ $(function() {
 
 	function addActiveClass() {
 		if ( $('body.home') ){
-				$('.home-link').addClass('active');
+			$('.home-link').addClass('active');
 		} else if ( $('body.resources') ){
 			$('.resources-link').addClass('active');
 		}
