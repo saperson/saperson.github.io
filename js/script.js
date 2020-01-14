@@ -1,4 +1,6 @@
-function showNav() {
+$(function() {
+
+	function showNav() {
 
 	$('#header').html(
 		`
@@ -12,30 +14,23 @@ function showNav() {
 		
 		`
 	);
+	}
 
-	// $('#topnav').html(
+	function addActiveClass() {
+		if ( $('body.favorite-foods') ){
 
-	// `
-	// <ul>
-	// 	<li class="home-link"><a href="index.html">Home</a></li>
-	// 	<li class="resources-link"><a href="resources.html">Resources</a></li>
-	// </ul>
-	// `
-	// );
+				$('.favorite-foods-link').addClass('active');
+		} else if ( $('body.resources') ){
+			$('.resources-link').addClass('active');
+		}
+	}
 
-}
+	function initialize() {
+		showNav();
+		addActiveClass();
+	}
 
-// function addActiveClass() {
+	$(initialize());
 
-// 	if ( $('body.favorite-foods') ){		
-// 		$('.favorite-foods-link').addClass('active'); {
-// }	else if ( $('body.resources') ){
-// 		$('.resources-link').addClass('active'); {
-// }
 
-function initialize() {
-	showNav();
-	// addActiveClass();
-}
-
-$(initialize());
+});
