@@ -33,9 +33,9 @@ header {
 
 header h1 {
 	padding: 30px;
-	font-family: 'Lexend Giga', sans-serif;
+	font-family: eurostile-extended, sans-serif;
+	font-weight: 900;
 	font-size: 25pt;
-	letter-spacing: 15pt;
 	text-transform: uppercase;
 	text-align: center;
 }
