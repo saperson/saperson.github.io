@@ -73,7 +73,8 @@ nav a:hover {
 /* Main styles */
 main { 
 	display: grid;
-	grid-template-columns: 60% 40%;
+	width: 80%;
+	grid-template-columns: 1fr;
 	font-family: 'DM Sans', sans-serif;
 }
 
@@ -131,3 +132,10 @@ footer p {
 	font-family: 'Lexend Giga', sans-serif;
 	font-size: 10px;
  }
+
+ /* Media Queries */
+@media only screen and (min-width: 768px) {
+	main { 
+		grid-template-columns: 60% 40%;
+	}
+}
