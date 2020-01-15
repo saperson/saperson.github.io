@@ -1,6 +1,6 @@
 body {
 	/* background: #FAEBD7 url('../images/vintage-concrete.png'); */
-	background-color: #363636;
+	background-color: white;
 }
 
 a {
@@ -25,9 +25,9 @@ header, nav, main, footer {
 
 /* Header styles */
 header {
-	background-color: #1D1D1D;
+	background-color: #ff003f;
 	width: auto;
-	color: BlanchedAlmond;
+	color: #fc0341;
 	min-height: 20%;
 }
 
@@ -38,12 +38,13 @@ header h1 {
 	font-size: 25pt;
 	text-transform: uppercase;
 	text-align: center;
+	color: white;
 }
 
 
 /* Nav styles */
 nav { 
-	background-color: #1D1D1D;
+	background-color: #ff003f;
 	width: auto;
 	padding-bottom: none;
 }
@@ -61,12 +62,12 @@ nav li {
 }
 
 nav a { 
-	color: BlanchedAlmond; 
+	color: white; 
 	transition: .3s all ease-in-out;
 }
 
 nav a:hover { 
-	color: #DCBA5B;
+	color: black;
 	letter-spacing: 1.5px;
 }
 
@@ -89,10 +90,14 @@ section ul, aside ul {
 	list-style: none;
 }
 
+section ul li a {
+	color: black;
+}
+
 section h2 {
 	font-family: 'Fjalla One', sans-serif;
 	text-transform: uppercase;
-	color: blanchedalmond;
+	color: #fc0341;
 }
 
 aside {
