@@ -1,9 +1,31 @@
+.start {
+	background-color: lightpink;
+	height: 100vw;
+	overflow: hidden;
+}
+
 .page1 {
 	background-color: lightblue;
 	height: 100vw;
+	overflow: hidden;
 }
 
 .page2 {
 	background-color: lightgreen;
 	height: 100vw;
+	overflow: hidden;
+}
+
+.page3 {
+	background-color: lightyellow;
+	height: 100vw;
+	overflow: hidden;
+}
+
+.page3body {
+	background-color: lightgray;
+	width: 350px;
+	padding: 20px;
+	margin: 50vw auto;
+	text-align: center;
 }
