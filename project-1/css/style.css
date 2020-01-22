@@ -1,7 +1,16 @@
+.start-master-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 100vw;
+}
+
 .start {
 	background-color: lightpink;
-	height: 100vw;
-	overflow: hidden;
+	line-height: 50vw;
+}
+
+.start-illustration-placeholder {
+	background-color: gray;
 }
 
 .page1 {
