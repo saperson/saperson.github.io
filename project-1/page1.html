@@ -10,18 +10,27 @@
 
 <body>
 
-	<div class="start">
-		<a href="#page1" class="start">Click to begin</button>
-	</div>
-
-	<div id="page1" class="page1">
+	<div id="page1" class="page1" data-0="background-color:rgba(200,0,0,1.0);" data-500="background-color:rgba(0,0,0,0.0);">
 		<p>page1</p>
 	</div>
 
-	<div class="page2">
+	<div id="page2" class="page2" data-0="background-color:rgba(0,0,0,0.0);" data-500="background-color:rgba(0,200,0,1.0);">
 		<p>page2</p>
 		<a href="page2.html">Continue</a>
 	</div>
+
+<script
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous">
+</script>
+
+<script type="text/javascript" src="js/skrollr.min.js"></script>
+	<script type="text/javascript">
+	var s = skrollr.init();
+</script>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
