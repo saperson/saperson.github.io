@@ -6,19 +6,19 @@
 
 .page1 {
 	background-color: lightblue;
-	height: 100vw;
+	height: 1080px;
 	overflow: hidden;
 }
 
 .page2 {
 	background-color: lightgreen;
-	height: 100vw;
+	height: 1080px;
 	overflow: hidden;
 }
 
 .page3 {
 	background-color: lightyellow;
-	height: 100vw;
+	height: 1080px;
 	overflow: hidden;
 }
 
