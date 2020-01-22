@@ -29,3 +29,9 @@
 	margin: 50vw auto;
 	text-align: center;
 }
+
+.start, .page1, .page2, .continue {
+	padding: 20px;
+	font-family: verdana;
+	text-decoration: none;
+}
