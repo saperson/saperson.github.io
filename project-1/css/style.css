@@ -2,15 +2,29 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	height: 100vw;
+	background-color: #00526e;
 }
 
 .start {
-	background-color: lightpink;
+
+}
+
+.start-link {
+	margin-left: 50px;
+	color: white;
+	font-family: chapman-extended, sans-serif;
+	font-size: 30px;
 	line-height: 50vw;
+	text-decoration: none;
 }
 
 .start-illustration-placeholder {
 	background-color: gray;
+}
+
+.part1-master-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .page1 {
@@ -19,10 +33,45 @@
 	overflow: hidden;
 }
 
+.page1 p {
+	margin-left: 80px;
+	margin-top: 400px;
+	font-family: chapman, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: white;
+	font-size: 40px;
+	line-height: 50px;
+}
+
 .page2 {
 	background-color: lightgreen;
 	height: 1080px;
 	overflow: hidden;
+}
+
+.page2 p {
+	margin-top: 600px;
+	margin-left: 80px;
+	font-family: chapman, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: white;
+	font-size: 40px;
+	line-height: 50px;
+}
+
+.continue-container {
+	text-align: right;
+}
+
+.continue-link {
+	font-family: chapman-extended, sans-serif;
+	font-weight: 400;
+	color: black;
+	font-size: 40px;
+	text-decoration: none;
+	border-bottom: .5px solid white;
 }
 
 .page3 {
@@ -35,7 +84,7 @@
 	background-color: lightgray;
 	width: 350px;
 	padding: 20px;
-	margin: 50vw auto;
+	margin: 25vw auto;
 	text-align: center;
 }
 
