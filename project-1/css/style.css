@@ -90,6 +90,10 @@
 	text-align: center;
 }
 
+#draggable {
+	cursor: n-resize;
+}
+
 .continue-container {
 	text-align: right;
 }
