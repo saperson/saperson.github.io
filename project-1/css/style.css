@@ -66,6 +66,19 @@
 	line-height: 50px;
 }
 
+.continue-container {
+	text-align: right;
+}
+
+.continue-link {
+	font-family: chapman-extended, sans-serif;
+	font-weight: 400;
+	color: black;
+	font-size: 40px;
+	text-decoration: none;
+	border-bottom: .5px solid white;
+}
+
 .page3 {
 	background-color: darkblue;
 	height: 1080px;
@@ -83,32 +96,19 @@
 	line-height: 50px;
 }
 
-.page3body {
-	width: 350px;
-	padding: 20px;
-	margin: 25vw auto;
-	text-align: center;
+.dragcomplete {
+	color: red;
+}
+
+#page3lines {
+
 }
 
 #draggable {
 	cursor: n-resize;
 }
 
-.continue-container {
-	text-align: right;
-}
-
-.continue-link {
-	font-family: chapman-extended, sans-serif;
-	font-weight: 400;
-	color: black;
-	font-size: 40px;
-	text-decoration: none;
-	border-bottom: .5px solid white;
-}
-
 .start, .page1, .page2, .continue {
 	padding: 20px;
-	font-family: verdana;
 	text-decoration: none;
 }
