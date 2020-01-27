@@ -11,8 +11,16 @@
 
 <body>
 	
-	<div class="page3">
-		<div class="page3body">Draggable placeholder</div>
+	<div class="part2-master-container">
+		<div class="page3">
+			<p>Line 5<br>Line 6</p>
+			<p>Line 7<br>Line 8</p>
+		</div>
+
+		<div class="page3" style="background-color: blue;">
+			<p draggable="true">DRAGGABLE</p>
+			<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="background-color: black;"></div>
+		</div>
 	</div>
 
 <script

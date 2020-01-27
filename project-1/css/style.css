@@ -27,6 +27,11 @@
 	grid-template-columns: 1fr 1fr;
 }
 
+.part2-master-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
 .page1 {
 	background-color: lightblue;
 	height: 1080px;
@@ -61,6 +66,30 @@
 	line-height: 50px;
 }
 
+.page3 {
+	background-color: darkblue;
+	height: 1080px;
+	overflow: hidden;
+}
+
+.page3 p {
+	margin-top: 600px;
+	margin-left: 80px;
+	font-family: chapman, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: white;
+	font-size: 40px;
+	line-height: 50px;
+}
+
+.page3body {
+	width: 350px;
+	padding: 20px;
+	margin: 25vw auto;
+	text-align: center;
+}
+
 .continue-container {
 	text-align: right;
 }
@@ -72,20 +101,6 @@
 	font-size: 40px;
 	text-decoration: none;
 	border-bottom: .5px solid white;
-}
-
-.page3 {
-	background-color: lightyellow;
-	height: 1080px;
-	overflow: hidden;
-}
-
-.page3body {
-	background-color: lightgray;
-	width: 350px;
-	padding: 20px;
-	margin: 25vw auto;
-	text-align: center;
 }
 
 .start, .page1, .page2, .continue {
