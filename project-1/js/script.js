@@ -7,5 +7,4 @@ $( function() {
 		$(this).addClass('dragcomplete');
 	});
 });
-
 // if top=-330px
