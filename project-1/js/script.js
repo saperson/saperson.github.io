@@ -3,8 +3,9 @@ $( function() {
 } );
 
 $( function() {
-	$('#draggable').on('drag', function() {
-		$(this).addClass('dragcomplete');
+	$("#demoDrag").draggable({
+          stop: function() {
+          	 ("#page3-illo").addClass("illo-show");
+          }
 	});
 });
-// if top=-330px

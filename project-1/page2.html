@@ -9,32 +9,31 @@
 	<link rel="stylesheet" href="https://use.typekit.net/gpu3kek.css">
 </head>
 
-<body>
+<body style="overflow: hidden;">
 	
 	<div class="part2-master-container">
 		<div class="page3">
 			<p>Line 5<br>Line 6</p><br>
-			<p id="page3lines">Line 7<br>Line 8</p>
+			<p id="page3lines" style="margin-top: 50px;">Line 7<br>Line 8</p>
 		</div>
 
 		<div class="page3" style="background-color: blue;">
-
-			<div id="droppable" class="drop-container"></div>
+			<!-- <div id="droppable" class="drop-container"></div> -->
 			<div id="draggable" class="draggable">
   				<p>Draggable</p>
-			</div>
-
+  			</div>
 		</div>
 	</div>
+	
 
 <script
 	src="https://code.jquery.com/jquery-3.4.1.min.js"
 	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 	crossorigin="anonymous">
 </script>
+<script src="js/jquery-ui.min.js"></script>
 
 <script src="js/script.js"></script>
-<script src="js/jquery-ui.min.js"></script>
 
 </body>
 </html>
