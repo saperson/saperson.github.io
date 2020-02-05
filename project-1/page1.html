@@ -12,15 +12,15 @@
 <body>
 
 <div class="part1-master-container">
-	<div id="page1" class="page1" data-0="background-color:rgba(200,0,0,1.0);" data-1080="background-color:rgba(0,0,0,0.0);">
+	<div id="page1" class="page1" data-0="opacity: 1;" data-1080="opacity: 0;">
 		<p>Line 1<br>Line 2</p>
 	</div>
-	<div class="page1" style="background-color: gray;" data-0="background-color:rgba(250,0,0,1.0);" data-1080="background-color:rgba(0,0,0,0.0);"><p>ILLUSTRATION</p></div>
+	<div class="page1"><img class="crow-img" src="images/crow.svg" data-0="opacity: 1;" data-1080="opacity: 0;"></div>
 
-	<div id="page2" class="page2" data-0="background-color:rgba(0,0,0,0.0);" data-1080="background-color:rgba(0,200,0,1.0);">
+	<div id="page2" class="page2" data-0="opacity: 0;" data-1080="opacity: 1;">
 		<p>Line 3<br>Line 4</p>
 	</div>
-	<div class="page2" style="background-color: gray;" data-0="background-color:rgba(0,0,0,0.0);" data-1080="background-color:rgba(0,250,0,1.0);"><p>ILLUSTRATION</p></div>
+	<div class="page2"><img class="crow-img" src="images/crow.svg" data-0="opacity: 0;" data-1080="opacity: 1;"></div>
 	
 	<div class="continue-container">
 		<a class="continue-link" href="page2.html">Continue</a>
@@ -32,12 +32,10 @@
 	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 	crossorigin="anonymous">
 </script>
-
 <script type="text/javascript" src="js/skrollr.min.js"></script>
 	<script type="text/javascript">
 	var s = skrollr.init();
 </script>
-
 <script src="js/script.js"></script>
 
 </body>

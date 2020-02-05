@@ -1,8 +1,9 @@
 .start-master-container {
+	overflow: hidden;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	height: 100vh;
-	/*background-color: #00526e;*/
+	background: linear-gradient(to bottom, #5d56b5 0%,#ad1283 85%,#d6a560 99%);
 }
 
 .start {
@@ -12,26 +13,27 @@
 .start-link {
 	position: relative;
 	margin-left: 150px;
-	color: #00526e;
+	top: 40vh;
+	color: white;
 	font-family: chapman-extended, sans-serif;
 	font-size: 30px;
-	line-height: 50vh;
 	text-decoration: none;
+	white-space: nowrap;
 }
 
 .start-link:hover {
-	color: #00526e;
+	color: white;
 }
 
 .start-link:before {
-	color: #00526e;
+	color: white;
 	content: "";
 	position: absolute;
 	width: 100%;
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #00526e;
+	background-color: white;
 	transform: scaleX(0);
 	transition: all 0.3s ease-in-out 0s;
 }
@@ -46,21 +48,27 @@
 	/*background-color: gray;*/
 }
 
+.crow-img {
+	height: 100%;
+}
+
 .part1-master-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: auto;
+	overflow-x: hidden;
 }
 
 .part2-master-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: auto;
+	overflow-x: hidden;
 }
 
 .page1 {
-	background-color: lightblue;
-	min-height: 100vh;
+	/*background-color: lightblue;*/
+	height: 100vh;
 	overflow: hidden;
 }
 
@@ -70,14 +78,14 @@
 	font-family: chapman, sans-serif;
 	font-weight: 400;
 	font-style: italic;
-	color: white;
+	color: black;
 	font-size: 40px;
 	line-height: 50px;
 }
 
 .page2 {
-	background-color: lightgreen;
-	min-height: 100vh;
+	/*background-color: lightgreen;*/
+	height: 100vh;
 	overflow: hidden;
 }
 
@@ -87,7 +95,7 @@
 	font-family: chapman, sans-serif;
 	font-weight: 400;
 	font-style: italic;
-	color: white;
+	color: black;
 	font-size: 40px;
 	line-height: 50px;
 }
@@ -131,7 +139,7 @@
 
 .page3 {
 	background-color: darkblue;
-	min-height: 100vh;
+	height: 100vh;
 	overflow: hidden;
 }
 
