@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	height: 100vh;
-	background-color: #00526e;
+	/*background-color: #00526e;*/
 }
 
 .start {
@@ -11,8 +11,8 @@
 
 .start-link {
 	position: relative;
-	margin-left: 50px;
-	color: white;
+	margin-left: 150px;
+	color: #00526e;
 	font-family: chapman-extended, sans-serif;
 	font-size: 30px;
 	line-height: 50vh;
@@ -20,18 +20,18 @@
 }
 
 .start-link:hover {
-	color: white;
+	color: #00526e;
 }
 
 .start-link:before {
-	color: white;
+	color: #00526e;
 	content: "";
 	position: absolute;
 	width: 100%;
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: white;
+	background-color: #00526e;
 	transform: scaleX(0);
 	transition: all 0.3s ease-in-out 0s;
 }
@@ -42,8 +42,8 @@
 	transform: scaleX(1);
 }
 
-.start-illustration-placeholder {
-	background-color: gray;
+.start-illustration {
+	/*background-color: gray;*/
 }
 
 .part1-master-container {
