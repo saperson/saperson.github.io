@@ -1,9 +1,38 @@
+html {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+	animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 .start-master-container {
 	overflow: hidden;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	height: 100vh;
 	background: linear-gradient(to bottom, #5d56b5 0%,#ad1283 85%,#d6a560 99%);
+}
+
+.start-header {
+	position: relative;
+	margin-left: 150px;
+	top: 40vh;
+	color: white;
+	font-family: chapman-extended, sans-serif;
+	font-size: 60px;
+	font-style: italic;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.start-subheader {
+	font-size: 20px;
+	font-style: normal;
 }
 
 .start {
@@ -13,16 +42,19 @@
 .start-link {
 	position: relative;
 	margin-left: 150px;
-	top: 40vh;
+	top: 50vh;
 	color: white;
 	font-family: chapman-extended, sans-serif;
 	font-size: 30px;
 	text-decoration: none;
 	white-space: nowrap;
+	opacity: .3;
+	transition: all 0.3s ease-in-out 0s;
 }
 
 .start-link:hover {
 	color: white;
+	opacity: 1;
 }
 
 .start-link:before {
@@ -45,7 +77,7 @@
 }
 
 .start-illustration {
-	/*background-color: gray;*/
+
 }
 
 .crow-img {
@@ -102,9 +134,9 @@
 
 .continue-container {
 	position: absolute;
-	top: 2100px;
+	top: 2000px;
 	text-align: right;
-	right: 10px;
+	right: 30px;
 }
 
 .continue-link {
@@ -141,6 +173,7 @@
 	background-color: darkblue;
 	height: 100vh;
 	overflow: hidden;
+	transition: all 1.5s ease-in-out 0s;
 }
 
 .page3 p {
@@ -161,10 +194,6 @@
 	width: 100%;
 	margin: auto;
 	height: 300px;
-}
-
-.dragcomplete {
-	color: red;
 }
 
 #draggable {
