@@ -1,7 +1,6 @@
 html {
 	margin-top: 25px;
 	font-size: 21px;
-	text-align: center;
 	animation: fadein 1.5s;
 }
 
@@ -15,13 +14,13 @@ html {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	height: 100vh;
-	background: linear-gradient(to bottom, #5d56b5 0%,#ad1283 85%,#d6a560 99%);
+	background: linear-gradient(to bottom, #a6daff 0%, #ad1283 85%, #ffffff 85.2%, #ffffff 99%);
 }
 
 .start-header {
 	position: relative;
 	margin-left: 150px;
-	top: 40vh;
+	top: 30vh;
 	color: white;
 	font-family: chapman-extended, sans-serif;
 	font-size: 60px;
@@ -85,24 +84,24 @@ html {
 }
 
 @keyframes animate-svg-stroke-1 {
-  0% {
-    stroke-dashoffset: 3415.02783203125px;
-    stroke-dasharray: 3415.02783203125px;
-  }
+	0% {
+		stroke-dashoffset: 3415.02783203125px;
+		stroke-dasharray: 3415.02783203125px;
+	}
 
-  100% {
-    stroke-dashoffset: 6830.0556640625px;
-  }
+	100% {
+		stroke-dashoffset: 6830.0556640625px;
+	}
 }
 
 @keyframes animate-svg-fill-1 {
-  0% {
-    fill: transparent;
-  }
+	0% {
+		fill: transparent;
+	}
 
-  100% {
-    fill: rgb(0, 0, 0);
-  }
+	100% {
+		fill: rgb(0, 0, 0);
+	}
 }
 
 .svg-elem-1 {
