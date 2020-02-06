@@ -2,14 +2,6 @@ $( function() {
 	$( "#draggable" ).draggable({ axis: "y", containment: "parent" });
 } );
 
-// $( function() {
-// 	$( "#draggable" ).draggable({
-// 		stop: function() {
-// 			$("#sunset-img").css("background-color", "#F09C48");
-// 		}
-// 	});
-// });
-
 $( function() {
 	$( "#draggable" ).draggable({
 		stop: function() {
@@ -18,3 +10,11 @@ $( function() {
 		}
 	});
 });
+
+// $( function() {
+// 	$( "#draggable" ).draggable({
+// 		stop: function() {
+// 			$("#sunset-img").css("background-color", "#F09C48");
+// 		}
+// 	});
+// });
