@@ -14,7 +14,7 @@ html {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	height: 100vh;
-	background: linear-gradient(to bottom, #a6daff 0%, #ad1283 85%, #ffffff 85.2%, #ffffff 99%);
+	background: linear-gradient(to bottom, #1e133b 0%, #751e67 85%, #e0faff 85.2%, #baf5ff 99%);
 }
 
 .start-header {
@@ -199,6 +199,7 @@ html {
 	height: 100vh;
 	overflow: hidden;
 	transition: all 1.5s ease-in-out 0s;
+	white-space: nowrap;
 }
 
 .page3 p {
@@ -209,6 +210,7 @@ html {
 	font-style: italic;
 	color: white;
 	font-size: 40px;
+	line-height: 50px;
 }
 
 .drop-container {
