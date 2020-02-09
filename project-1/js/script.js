@@ -5,17 +5,11 @@ $( function() {
 $( function() {
 	$( "#draggable" ).draggable({
 		stop: function() {
-			$("#sunset-img").css("background", "linear-gradient(rgba(255,107,237,1) 0%, rgba(255,159,39,1) 100%)");
-			$("#page3lines-container").css("background", "linear-gradient(rgba(255,107,237,1) 0%, rgba(255,159,39,1) 100%)");
+			$("#sunset-img").css("background-image", "url(images/background2.svg)");
+			$("#page3lines-container").css("background-image", "url(images/background2.svg)");
+			$("#page3lines").css("transition", "3s all");
 			$("#page3lines").css("opacity", "1");
+			$("#sun").attr("src","images/sun2.svg");
 		}
 	});
 });
-
-// $( function() {
-// 	$( "#draggable" ).draggable({
-// 		stop: function() {
-// 			$("#sunset-img").css("background-color", "#F09C48");
-// 		}
-// 	});
-// });
