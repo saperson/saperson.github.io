@@ -4,10 +4,10 @@
 	 viewBox="0 0 419.7 569" style="enable-background:new 0 0 419.7 569;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FCF9D1;}
-	.st1{fill:none;stroke:#F3F4F4;stroke-width:4;stroke-miterlimit:10;}
-	.st2{fill:#F3F4F4;}
-	.st3{fill:none;stroke:#F3F4F4;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#F3F4F4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{opacity:0.2;fill:none;stroke:#F3F4F4;stroke-width:4;stroke-miterlimit:10;}
+	.st2{opacity:0.2;fill:#F3F4F4;}
+	.st3{opacity:0.2;fill:none;stroke:#F3F4F4;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{opacity:0.2;fill:none;stroke:#F3F4F4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <title>crow</title>
 <circle class="st0" cx="209.9" cy="359.1" r="209.8"/>

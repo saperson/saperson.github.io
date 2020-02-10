@@ -110,10 +110,10 @@ svg.active .svg-elem-1 {
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: auto;
 	overflow-x: hidden;
+	height: 100vh;
 }
 
 .page1 {
-	/*background-color: lightblue;*/
 	height: 100vh;
 	overflow: hidden;
 }
@@ -124,13 +124,12 @@ svg.active .svg-elem-1 {
 	font-family: chapman, sans-serif;
 	font-weight: 400;
 	font-style: italic;
-	color: black;
+	color: white;
 	font-size: 40px;
 	line-height: 50px;
 }
 
 .page2 {
-	/*background-color: lightgreen;*/
 	height: 100vh;
 	overflow: hidden;
 }
@@ -141,14 +140,14 @@ svg.active .svg-elem-1 {
 	font-family: chapman, sans-serif;
 	font-weight: 400;
 	font-style: italic;
-	color: black;
+	color: white;
 	font-size: 40px;
 	line-height: 50px;
 }
 
 .continue-container {
 	position: absolute;
-	top: 200vh;
+	top: 210vh;
 	left: 45vw;
 }
 
@@ -205,32 +204,13 @@ svg.active .svg-elem-1 {
 	background-repeat: no-repeat;
 }
 
-#sunhover {
-	opacity: 0;
-}
-
 #page3lines-container {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-.drop-container {
-	position: absolute;
-	top: 50vh;
-	background-color: gray; 
-	border: 1px solid red;
-	width: 100%;
-	margin: auto;
-	height: 300px;
-}
-
-#draggable {
+.draggable {
 	cursor: n-resize;
-}
-
-.start, .page1, .page2, .continue {
-	padding: 20px;
-	text-decoration: none;
 }
 
 /*STAR STUFF*/
