@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 766 714.2" style="enable-background:new 0 0 766 714.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+</style>
+<title>hill</title>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="382.8884" y1="-37.998" x2="383.1542" y2="324.5475" gradientTransform="matrix(1 0 0 -1 0 714)">
+	<stop  offset="0" style="stop-color:#2A3427"/>
+	<stop  offset="2.115503e-03" style="stop-color:#2A3527"/>
+	<stop  offset="6.077681e-02" style="stop-color:#2F402B"/>
+	<stop  offset="0.1432" style="stop-color:#31472D"/>
+	<stop  offset="0.3724" style="stop-color:#32492E"/>
+	<stop  offset="0.63" style="stop-color:#374C30"/>
+	<stop  offset="0.71" style="stop-color:#445537"/>
+	<stop  offset="0.79" style="stop-color:#5B6443"/>
+	<stop  offset="0.88" style="stop-color:#7A9353"/>
+	<stop  offset="0.9588" style="stop-color:#A2AE67"/>
+	<stop  offset="1" style="stop-color:#B4C553"/>
+</linearGradient>
+<polygon class="st0" points="0,485.4 171.3,441 342,450.9 483.1,426.3 629.2,426.3 766,396.5 766,714.2 0,714.2 "/>
+</svg>
