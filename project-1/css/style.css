@@ -109,7 +109,7 @@ img {
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: auto;
 	overflow-x: hidden;
-	background-image: url(../images/background1.svg);
+	background-image: url(../images/background4.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
