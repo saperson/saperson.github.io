@@ -128,7 +128,7 @@ img {
 }
 
 .page1 p {
-	margin-left: 80px;
+	margin-left: 180px;
 	margin-top: 400px;
 	font-family: chapman, sans-serif;
 	font-weight: 400;
@@ -144,8 +144,8 @@ img {
 }
 
 .page2 p {
+	margin-left: 180px;
 	margin-top: 400px;
-	margin-left: 80px;
 	font-family: chapman, sans-serif;
 	font-weight: 400;
 	font-style: italic;

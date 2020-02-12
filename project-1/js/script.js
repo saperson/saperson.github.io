@@ -10,7 +10,7 @@ $( function() {
 			$("#page3lines").css("transition", "3s all");
 			$("#page3lines").css("opacity", "1");
 			$("#sun").attr("src","images/sun2.svg");
-			$("#hill").attr("src","images/hill2.svg");
+			$("#hill").attr("src","images/hill2.png");
 			$( "#draggable" ).draggable({disabled:true});
 			$( "#draggable" ).removeClass('draggable');
 		}
