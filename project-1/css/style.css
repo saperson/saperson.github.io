@@ -236,6 +236,12 @@ img {
 	pointer-events: none;
 }
 
+#hill2 {
+	position: absolute; 
+	bottom: 0; 
+	pointer-events: none;
+}
+
 /*STAR STUFF*/
 
 @keyframes move-twink-back {

@@ -11,6 +11,7 @@ $( function() {
 			$("#page3lines").css("opacity", "1");
 			$("#sun").attr("src","images/sun2.svg");
 			$("#hill").attr("src","images/hill2.png");
+			$("#hill2").attr("src","images/hill4.png");
 			$( "#draggable" ).draggable({disabled:true});
 			$( "#draggable" ).removeClass('draggable');
 		}
