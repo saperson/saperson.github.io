@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>p5.js example</title>
+		<style> body {padding: 0; margin: 0;} </style>
+		<script src="../js/p5.js"></script>
+		<script src="../js/p5.sound.js"></script>
+		</head>
+	<body>
+		<h6><a href="https://saperson.github.io/">< Back to home</a></h6>
+		<script>var circleOne = {
+		x: 50,
+		y: 100,
+		d: 200,
+		}
+
+		function setup() {
+			// put setup code here
+			createCanvas(640, 480);
+			background(200);
+		}
+
+		function draw() {
+			// put drawing code here
+
+			fill(32, 128, 79, 40);
+			noStroke();
+			ellipse(circleOne.x, circleOne.y, circleOne.d, circleOne.d);
+			// console.log(frameCount);
+		}
+
+		function mousePressed() {
+			background(200);
+		}
+		</script>
+	</body>
+</html>
