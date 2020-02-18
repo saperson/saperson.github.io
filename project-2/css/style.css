@@ -1,0 +1,32 @@
+body {
+	user-select: none;
+	background-color: lightgray;
+}
+
+img {
+	width: 100%;
+}
+
+.carousel-container {
+	background-color: gray;
+	margin: 20px auto;
+	width: 400px;
+	height: 400px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.carousel-container p {
+	color: white;
+	font-family: sans-serif;
+	size: 50px;
+}
+
+.slick-slide {
+	outline: none;
+}
+
+.slick-slide img {
+	width:100%;
+	margin-top: 60px;
+}
