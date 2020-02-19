@@ -1,10 +1,64 @@
 body {
 	user-select: none;
-	background-color: lightgray;
 }
 
 img {
 	width: 100%;
+}
+
+.logo {
+	width: 200px;
+	height: 100px;
+	background-color: gray;
+}
+
+nav {
+	width: 200px;
+}
+
+nav a {
+	display: block;
+	color: white;
+	font-size: 20px;
+	font-family: anton, sans-serif;
+	text-decoration: none;
+	letter-spacing: .5px;
+	padding: 10px;
+	text-align: center;
+	margin: 10px auto;
+}
+
+nav a:hover {
+	width: 225px;
+}
+
+.active {
+	width: 350px;
+	text-align: right;
+}
+
+#nav-gallery {
+	background-color: #80ce4e;
+}
+
+#nav-about {
+	background-color: #5fcbc5;
+}
+
+#nav-demo {
+	background-color: #e84879;
+}
+
+#nav-buy {
+	background-color: #e54c1d;
+}
+
+.gallery-prompt {
+	font-family: lato;
+	font-weight: 200;
+	font-size: 30px;
+	margin-left: 200px;
+	margin-top: 25vh;
 }
 
 .carousel-container {
