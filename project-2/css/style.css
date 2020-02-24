@@ -12,6 +12,11 @@ img {
 	margin: 12px;
 }
 
+h1 {
+	font-family: anton;
+	font-size: 50px;
+}
+
 nav {
 	width: 1vw;
 }
@@ -90,6 +95,15 @@ nav a:hover {
 	outline-offset: -10px;
 }
 
+.buy-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.buy-info {
+	margin-top: 25vh;
+}
+
 .carousel-container {
 	background-color: gray;
 	margin: 20px auto;
@@ -97,6 +111,7 @@ nav a:hover {
 	height: 400px;
 	padding-top: 20px;
 	text-align: center;
+	margin-top: 25vh;
 }
 
 .carousel-container p {
