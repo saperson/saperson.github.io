@@ -1,0 +1,8 @@
+/* main.scss */
+
+@import 'partials/variables';
+
+h1 {
+	color: $primary-text;
+	font-family: $header-font;
+}

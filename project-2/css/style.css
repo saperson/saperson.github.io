@@ -17,6 +17,13 @@ h1 {
 	font-size: 50px;
 }
 
+p, li {
+	font-size: 18px;
+	line-height: 25px;
+	font-family: lato, sans-serif;
+	font-weight: 300;
+}
+
 nav {
 	width: 1vw;
 }
