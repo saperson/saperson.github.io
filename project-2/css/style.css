@@ -43,11 +43,11 @@ nav a {
 }
 
 nav a:hover {
-	width: 250px;
+	width: 220px;
 }
 
 .active {
-	width: 275px;
+	width: 230px;
 	text-align: right;
 }
 
@@ -138,7 +138,6 @@ nav a:hover {
 }
 
 .carousel-container {
-	background-color: gray;
 	margin: 20px auto;
 	width: 400px;
 	height: 400px;
@@ -148,7 +147,7 @@ nav a:hover {
 }
 
 .carousel-container p {
-	color: white;
+	color: gray;
 	font-family: lato, sans-serif;
 	font-weight: 300;
 	size: 50px;
