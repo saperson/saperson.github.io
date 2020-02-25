@@ -1,3 +1,7 @@
+$( function() {
+	$( "#draggable-insert" ).draggable({ axis: "y", containment: "parent" });
+} );
+
 $(function(){
 	$('.carousel').slick({
 	arrows: false,

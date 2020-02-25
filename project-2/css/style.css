@@ -24,6 +24,10 @@ p, li {
 	font-weight: 300;
 }
 
+li {
+	display: list-item;
+}
+
 nav {
 	width: 1vw;
 }
@@ -76,6 +80,7 @@ nav a:hover {
 	font-family: lato;
 	font-weight: 300;
 	font-size: 30px;
+	line-height: 35px;
 	margin-left: 30%;
 	margin-top: 25vh;
 }
@@ -102,6 +107,31 @@ nav a:hover {
 	outline-offset: -10px;
 }
 
+.demo-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.demo-body {
+	margin-top: 25vh;
+}
+
+.demo-body img {
+	position: relative;
+	max-height: 50vh;
+	width: auto;
+}
+
+.demo-case {
+	pointer-events: none;
+}
+
+.demo-insert {
+	height: 37vh;
+	margin-left: -17.5vw;
+	cursor: n-resize;
+}
+
 .buy-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -123,7 +153,8 @@ nav a:hover {
 
 .carousel-container p {
 	color: white;
-	font-family: sans-serif;
+	font-family: lato, sans-serif;
+	font-weight: 300;
 	size: 50px;
 }
 

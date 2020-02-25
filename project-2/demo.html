@@ -9,14 +9,25 @@
 
 <body>
 
-	<div class="logo"><img src="images/logo.svg"></div>
+	<div class="demo-container">
 
-	<nav>
-		<a href="gallery.html" id="nav-gallery">GALLERY</a>
-		<a href="about.html" id="nav-about">ABOUT</a>
-		<a href="demo.html" id="nav-demo">DEMO</a>
-		<a href="buy.html" id="nav-buy">BUY</a>
-	</nav>
+		<div>
+			<div class="logo"><img src="images/logo.svg"></div>
+			<nav class="nav">
+				<a href="gallery.html" id="nav-gallery">GALLERY</a>
+				<a href="about.html" id="nav-about">ABOUT</a>
+				<a href="demo.html" id="nav-demo">DEMO</a>
+				<a href="buy.html" id="nav-buy">BUY</a>
+			</nav>
+		</div>
+
+		<div class="demo-body">
+			<img style="z-index: 1;" class="demo-case" src="images/demo-case.png">
+			<img style="z-index: 0;" class="demo-insert" id="draggable-insert" src="images/demo-insert.png">
+			<div></div>
+		</div>
+
+	</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
