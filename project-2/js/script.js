@@ -1,7 +1,3 @@
-$( function() {
-	$( "#draggable-insert" ).draggable({ axis: "y", containment: "parent" });
-} );
-
 $(function(){
 	$('.carousel').slick({
 	arrows: false,
@@ -20,15 +16,9 @@ $(function() {
 	});
 });
 
-// $(document).ready(function() {
-// 	// get current URL path and assign 'active' class
-// 	var pathname = window.location.pathname;
-// 	$('nav > a[href="'+pathname+'"]').parent().addClass('active');
-// })
-
-// $(function() {
-//   $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-// });
+$( function() {
+	$( "#draggable-insert" ).draggable({ axis: "y", containment: "parent" });
+} );
 
 $(function () {
 	setNavigation();
