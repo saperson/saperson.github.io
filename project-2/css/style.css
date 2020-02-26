@@ -130,20 +130,42 @@ nav a:hover {
 
 .buy-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1.5fr 1.5fr;
 }
 
 .buy-info {
 	margin-top: 25vh;
 }
 
+.buy-info ul {
+	list-style: disc;
+	margin-left: 50px;
+}
+
+.buy-button {
+	transition: .3s all ease-in-out;
+	width: 20vw;
+	background-color: orange;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-family: anton, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.buy-button:hover {
+	cursor: pointer;
+	background-color: darkorange;
+}
+
 .carousel-container {
 	margin: 20px auto;
-	width: 400px;
-	height: 400px;
+	width: 23vw;
+	height: 600px;
 	padding-top: 20px;
 	text-align: center;
-	margin-top: 25vh;
+	margin-top: 20vh;
 }
 
 .carousel-container p {
@@ -151,6 +173,11 @@ nav a:hover {
 	font-family: lato, sans-serif;
 	font-weight: 300;
 	size: 50px;
+}
+
+.carousel-item {
+	height: 100%;
+	width: auto;
 }
 
 .slick-slide {

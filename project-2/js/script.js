@@ -1,7 +1,7 @@
 $(function(){
 	$('.carousel').slick({
 	arrows: false,
-	dots: false,
+	dots: true,
 	slidesToShow: 1,
 	centerMode: true,
 	});
@@ -36,3 +36,24 @@ $(document).ready(function () {
 $( function() {
 	$( "#draggable-insert" ).draggable({ axis: "y", containment: "parent" });
 } );
+
+// var dragging = false
+
+// $(function() {
+// var target = $('#target')
+// target.mousedown(function() {
+// 	dragging = true
+// })
+// $(document).mouseup(function() {
+// 	dragging = false
+// })
+// $(document).mousemove(function(e) {
+// 	if (dragging) {
+// 		var mouse_x = e.pageX;
+// 		var mouse_y = e.pageY;
+// 		var radians = Math.atan2(mouse_x - 10, mouse_y - 10);
+// 		var degree = (radians * (180 / Math.PI) * -1) + 90;
+// 		target.css('transform', 'rotate(' + degree + 'deg)');
+// 		target.css('transform-origin', '0% 40%');
+// 	}
+// })
