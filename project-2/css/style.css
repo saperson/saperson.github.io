@@ -51,19 +51,19 @@ nav a:hover {
 	text-align: right;
 }
 
-#nav-gallery {
+.nav-gallery {
 	background-color: #80ce4e;
 }
 
-#nav-about {
+.nav-about {
 	background-color: #5fcbc5;
 }
 
-#nav-demo {
+.nav-demo {
 	background-color: #e84879;
 }
 
-#nav-buy {
+.nav-buy {
 	background-color: #e54c1d;
 }
 
@@ -145,18 +145,19 @@ nav a:hover {
 .buy-button {
 	transition: .3s all ease-in-out;
 	width: 20vw;
-	background-color: orange;
+	background-color: #e54c1d;
 	text-align: center;
 	color: white;
 	font-size: 40px;
 	font-family: anton, sans-serif;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	letter-spacing: 1.5px;
 }
 
 .buy-button:hover {
 	cursor: pointer;
-	background-color: darkorange;
+	background-color: #d13100;
 }
 
 .carousel-container {
@@ -187,4 +188,10 @@ nav a:hover {
 .slick-slide img {
 	width:100%;
 	margin-top: 60px;
+}
+
+.slick-dots {
+	display: inline-flex;
+	list-style: none;
+	background-color: blue;
 }
