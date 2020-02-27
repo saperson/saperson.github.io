@@ -103,6 +103,16 @@ nav a:hover {
 	outline-offset: -10px;
 }
 
+.about-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.about-body {
+	background-color: lightblue;
+	height: 100vh;
+}
+
 .demo-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
