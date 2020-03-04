@@ -8,5 +8,5 @@ $(function(){
 });
 
 $( function() {
-	$( "#draggable-insert" ).draggable({ axis: "y", containment: "parent" });
+	$( "#draggable-insert" ).draggable({ axis: "y" });
 } );
