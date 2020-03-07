@@ -82,10 +82,22 @@ nav a:hover {
 }
 
 .gallery-grid {
+	transition: .3s all ease-in-out;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 10px;
 	min-height: 100vh;
+}
+
+.gallery-grid img {
+	position: relative;
+	z-index: 0;
+}
+
+.gallery-grid p {
+	position: relative;
+	z-index: 1;
+	text-align: center;
 }
 
 .gallery-grid-item {
@@ -101,6 +113,15 @@ nav a:hover {
 .gallery-grid-item:hover {
 	outline: 10px solid lightgray;
 	outline-offset: -10px;
+}
+
+.gallery-label {
+	display: none;
+}
+
+.gallery-label-active {
+	display: inline;
+	font-size: 10px;
 }
 
 .about-container {
@@ -119,12 +140,10 @@ nav a:hover {
 }
 
 .about-body {
-	border: 1px solid lightblue;
 	height: 300vh;
 	margin-left: 50vw;
 	overflow-x: hidden;
 	width: 100%;
-	color: white;
 }
 
 .about-item {
@@ -133,17 +152,9 @@ nav a:hover {
 	top: 0;
 }
 
-.about-body:nth-child(2) {
-	background-color: #5fcbc5;
-}
-
-.about-body:nth-child(3) {
-	background-color: #e84879;
-}
-
 .about-item img {
 	height: 19%; 
-	width: auto; 
+	width: auto;  
 	margin-left: 10%;
 }
 
@@ -174,23 +185,26 @@ nav a:hover {
 }
 
 .demo-body img {
-	position: relative;
-	max-height: 50vh;
+	position: absolute;
 	width: auto;
 }
 
 .demo-lid {
+	max-height: 27vh;
+	margin-left: -.2vw;
 	transform-origin: bottom right;
 }
 
 .demo-case {
 	pointer-events: none;
 	cursor: n-resize;
+	max-height: 50vh;
 }
 
 .demo-insert {
 	height: 37vh;
-	margin-left: -17.5vw;
+	margin-top: 5vh;
+	margin-left: 5.5vw;
 	cursor: n-resize;
 }
 
