@@ -82,11 +82,11 @@ nav a:hover {
 }
 
 .gallery-grid {
-	transition: .3s all ease-in-out;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 10px;
-	min-height: 100vh;
+	min-height: 90vh;
+	margin-top: 50px;
 }
 
 .gallery-grid img {
@@ -117,11 +117,20 @@ nav a:hover {
 
 .gallery-label {
 	display: none;
+	font-family: anton;
+	font-weight: 300;
+	font-size: 30px;
+	display: none;
+}
+
+.gallery-label-sub {
+	font-family: lato;
+	font-size: 16px;
 }
 
 .gallery-label-active {
-	display: inline;
-	font-size: 10px;
+	display: block;
+	margin-bottom: -200px;
 }
 
 .about-container {
@@ -140,9 +149,9 @@ nav a:hover {
 }
 
 .about-body {
-	height: 300vh;
+	height: 250vh;
 	margin-left: 50vw;
-	overflow-x: hidden;
+	overflow: hidden;
 	width: 100%;
 }
 
@@ -156,6 +165,10 @@ nav a:hover {
 	height: 19%; 
 	width: auto;  
 	margin-left: 10%;
+}
+
+.about-weave {
+	transform: rotate(-20deg);
 }
 
 .about-item p {
@@ -202,9 +215,9 @@ nav a:hover {
 }
 
 .demo-insert {
-	height: 37vh;
-	margin-top: 5vh;
-	margin-left: 5.5vw;
+	max-height: 37vh;
+	margin-top: 13vh;
+	margin-left: 5vw;
 	cursor: n-resize;
 }
 
