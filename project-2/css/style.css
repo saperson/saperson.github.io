@@ -319,6 +319,8 @@ nav a:hover {
 	to   { transform: none; }
 }
 
+.slick-arrow:before { color: #000 !important; }
+
 .carousel-container p {
 	color: gray;
 	font-family: lato, sans-serif;

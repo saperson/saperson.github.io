@@ -1,9 +1,6 @@
 $(function(){
 	$('.carousel').slick({
 	arrows: true,
-	appendArrows: $('.carousel'),
-	prevArrow: $('.left'),
-	nextArrow: $('.right'),
 	dots: false,
 	slidesToShow: 1,
 	centerMode: true,
