@@ -23,17 +23,14 @@
     line-height: 0;
 
     position: absolute;
-    top: 43%;
+    top: 50%;
 
     display: block;
 
     width: 20px;
     height: 20px;
-    padding: 0px;
-    padding-right: 20px;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+    margin-top: -10px;
+    padding: 0;
 
     cursor: pointer;
 
@@ -89,11 +86,11 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: 'â†';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: 'â†’';
 }
 
 .slick-next
@@ -107,15 +104,15 @@
 }
 .slick-next:before
 {
-    content: '→';
+    content: 'â†’';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: 'â†';
 }
 
 /* Dots */
-.slick-dotted.slick-slider
+.slick-slider
 {
     margin-bottom: 30px;
 }
@@ -123,13 +120,12 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: -45px;
 
     display: block;
 
     width: 100%;
     padding: 0;
-    margin: 0;
 
     list-style: none;
 
@@ -189,7 +185,7 @@
     width: 20px;
     height: 20px;
 
-    content: '•';
+    content: 'â€¢';
     text-align: center;
 
     opacity: .25;
