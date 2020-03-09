@@ -1,3 +1,12 @@
+html, {
+	animation: fadein .3s ease-in-out;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
 body {
 	user-select: none;
 }
@@ -89,19 +98,22 @@ nav a:hover {
 	margin-top: 50px;
 }
 
+.gallery-link {
+	text-decoration: none;
+	color: white;
+}
+
 .gallery-grid img {
-	position: relative;
-	z-index: 0;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .gallery-grid p {
-	position: relative;
-	z-index: 1;
 	text-align: center;
 }
 
 .gallery-grid-item {
-	transition: .3s all;
+
 }
 
 .gallery-grid-item img {
@@ -150,6 +162,7 @@ nav a:hover {
 	line-height: 35px;
 	margin-left: 18%;
 	margin-top: 20vh;
+	text-align: center;
 }
 
 .about-body {
@@ -217,9 +230,14 @@ nav a:hover {
 }
 
 .demo-lid {
-	max-height: 27vh;
+	max-height: 26.5vh;
+	margin-top: .5vw;
 	margin-left: -.2vw;
 	transform-origin: bottom right;
+}
+
+#draggable-lid {
+	transform: rotate(90deg);
 }
 
 .demo-case {
@@ -254,6 +272,10 @@ nav a:hover {
 	margin-left: 50px;
 }
 
+.buy-link {
+	text-decoration: none;
+}
+
 .buy-button {
 	transition: .3s all ease-in-out;
 	width: 20vw;
@@ -278,12 +300,18 @@ nav a:hover {
 }
 
 .carousel-container {
+	animation: slidein .5s;
 	margin: 20px auto;
 	width: 23vw;
 	height: 600px;
 	padding-top: 20px;
 	text-align: center;
 	margin-top: 20vh;
+}
+
+@keyframes slidein {
+	from { transform: translateX(600px); }
+	to   { transform: none; }
 }
 
 .carousel-container p {
@@ -296,6 +324,17 @@ nav a:hover {
 .carousel-item {
 	height: 100%;
 	width: auto;
+}
+
+.carousel-buttons {
+	margin-top: -75px;
+}
+
+.left, .right {
+	margin: auto 20px;
+	display: inline;
+	font-size: 50px;
+	font-weight: 700;
 }
 
 .slick-slide {
