@@ -236,7 +236,12 @@ nav a:hover {
 	transform-origin: bottom right;
 }
 
+.demo-lid-open {
+	transform: rotate(-45deg);
+}
+
 #draggable-lid {
+	transition: .3s all ease-in-out;
 	transform: rotate(90deg);
 }
 

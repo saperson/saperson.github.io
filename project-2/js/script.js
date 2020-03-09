@@ -3,19 +3,27 @@ $(function(){
 	arrows: true,
 	appendArrows: $('.carousel'),
 	prevArrow: $('.left'),
-    nextArrow: $('.right'),
+	nextArrow: $('.right'),
 	dots: false,
 	slidesToShow: 1,
 	centerMode: true,
 	});
 });
 
-$( function() {
+$(function(){
 	$('#draggable-insert').draggable({ axis: 'y' });
-} );
+});
 
-$(".draggable-lid").click(function(){
-	$(this).animate({ transform: 'rotate(-90deg)'}, 500) ;
+$('#draggable-lid').click(function() {
+	var clicks = $(this).data('clicks');
+	if (clicks) {
+		$(this).css({ transform: 'rotate(-45deg)', }),
+		$("#zippoclick")[0].play();
+	} else {
+		$(this).css({ transform: 'rotate(90deg)', }),
+		$("#zippoclick2")[0].play();
+	}
+	$(this).data("clicks", !clicks);
 });
 
 $('#grid-stripes').hover(
