@@ -306,9 +306,3 @@ nav a:hover {
 	width:100%;
 	margin-top: 60px;
 }
-
-.slick-dots {
-	display: inline-flex;
-	list-style: none;
-	background-color: blue;
-}
