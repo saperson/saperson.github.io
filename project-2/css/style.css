@@ -129,8 +129,12 @@ nav a:hover {
 }
 
 .gallery-label-active {
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: rgba(0,0,0,.7);
 	display: block;
-	margin-bottom: -200px;
+	transform: translateY(-175px);
 }
 
 .about-container {
@@ -183,6 +187,16 @@ nav a:hover {
 	grid-template-columns: 1fr 1fr;
 }
 
+.demo-block {
+	background-color: white; 
+	z-index: 3; 
+	position: absolute; 
+	right: 0; 
+	bottom: 0;
+	width: 100%;
+	height: 25.25vh;
+}
+
 .about-prompt {
 	position: fixed;
 	font-family: anton;
@@ -221,6 +235,11 @@ nav a:hover {
 	cursor: n-resize;
 }
 
+.demo-block {
+	overflow: hidden;
+	pointer-events: none;
+}
+
 .buy-container {
 	display: grid;
 	grid-template-columns: 1fr 1.5fr 1.5fr;
@@ -251,6 +270,11 @@ nav a:hover {
 .buy-button:hover {
 	cursor: pointer;
 	background-color: #d13100;
+}
+
+.buy-button a {
+	text-decoration: none;
+	color: white;
 }
 
 .carousel-container {
