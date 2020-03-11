@@ -243,6 +243,7 @@ nav a:hover {
 }
 
 .demo-insert {
+	transition: .175s all;
 	max-height: 37vh;
 	margin-top: 13vh;
 	margin-left: 5vw;
